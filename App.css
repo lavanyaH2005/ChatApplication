@@ -1,0 +1,23 @@
+.scrollbar::-webkit-scrollbar {
+  width: 10px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background-color: #97b7d7; /* Equivalent to bg-slate-100 */
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: #264c47c1; /* Equivalent to bg-slate-200 */
+  border-radius: 9999px; /* Equivalent to rounded-full */
+}
+body.black-theme {
+  background-color: #343333; /* Dark background */
+  color: #37bfd7; /* Light text color */
+}
+
+.black-theme .bg-slate-100 {
+  background-color: #343333; /* Sidebar background in dark mode */
+  color: #37bfd7; /* Text color in sidebar */
+}
+
+/* Update other elements as needed */
